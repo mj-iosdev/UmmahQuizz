@@ -1,0 +1,7 @@
+{
+  "name": "ummah_quizz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

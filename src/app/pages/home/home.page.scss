@@ -1,0 +1,222 @@
+$mainColor: #02367f;
+ion-title {
+  font-family: "Anime Ace";
+  font-size: 15px;
+  font-weight: 30;
+}
+ion-avatar.user-main {
+  height: auto;
+  width: auto;
+  ion-img {
+    height: 46px;
+    width: 46px;
+  }
+}
+
+ion-item.user-main-item {
+  --inner-padding-start: 0px;
+  --padding-start: 16px;
+  --inner-padding-end: 0px;
+  --padding-end: 16px;
+  --padding-top: 8px;
+  background: #fff;
+  .user-name {
+    font-family: "Roboto-Bold" !important;
+    color: $mainColor;
+    align-self: start;
+    font-size: 20px;
+  }
+  p {
+    margin-top: 6px;
+    font-size: 15px;
+  }
+  ion-icon.item-square-icon {
+    margin-top: 16px;
+  }
+}
+.item-wrapper {
+  background: #fff;
+  div {
+    padding-left: 16px;
+    padding-bottom: 16px;
+    ion-chip {
+      padding-left: 8px;
+    }
+    ion-label {
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    ion-icon {
+      font-size: 25px;
+    }
+  }
+}
+
+.grid-wrapper {
+  ion-col {
+    padding: 10px;
+    div.first,
+    div.last {
+      border-radius: 15px;
+      height: 150px;
+    }
+    div.first {
+      background: linear-gradient(45.44deg, #35bda8 -1.73%, #45dcc3 102.6%);
+      .ellise-image {
+        right: 0px;
+        position: absolute;
+        width: 96px;
+        height: 83px;
+        left: 92px;
+        top: 10px;
+      }
+      .icon-wrapper-div {
+        div.icon {
+          background: rgba(255, 255, 255, 0.3);
+        }
+      }
+    }
+    .icon-wrapper-div {
+      padding: 15px;
+      color: #fff;
+      div.icon {
+        width: 46px;
+        height: 46px;
+        padding: 6px;
+        border-radius: 5px;
+      }
+      ion-icon {
+        font-size: 32px;
+      }
+      .header-text {
+        font-family: "Roboto-Bold";
+        padding-top: 10px;
+        font-size: 18px;
+      }
+      .header-desc {
+        padding-top: 10px;
+        font-size: 13px;
+      }
+    }
+    div.last {
+      background: linear-gradient(43.87deg, #da9535 0%, #f3ad53 106.35%);
+      .rectangle-image {
+        position: absolute;
+        right: 10px;
+      }
+      .icon-wrapper-div {
+        div.icon {
+          background: rgba(255, 255, 255, 0.3);
+        }
+      }
+    }
+  }
+}
+
+.header-title-text {
+  font-family: "Roboto-Bold" !important;
+  margin: 7px 0px 5px 17px;
+}
+.quiz-of-week-content-div {
+  height: 101px;
+  background: linear-gradient(90deg, #4eaff6 0%, #0ad1fe 100%);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 20px;
+  display: flex;
+  .prove-it-text {
+    font-family: "FFF-Tusj";
+    color: $mainColor;
+    font-size: 26px;
+  }
+  .inner-text {
+    color: #fff;
+    padding: 5px 0px;
+    font-size: 14px;
+  }
+  .bg-image {
+    background: url("../../../assets/images/reading-child.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 154px;
+    height: 122px;
+    transform: matrix(1, 0, 0, 1, 12, -44);
+    position: absolute;
+    right: 40px;
+  }
+}
+.current-game-section {
+  margin: 15px;
+  margin: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 10%;
+  padding-bottom: 15px;
+
+  ion-item {
+    border-radius: 15px;
+  }
+  ion-avatar {
+    height: auto;
+    width: auto;
+    margin-top: 0px;
+    ion-img {
+      height: 80px;
+      width: 80px;
+    }
+  }
+  ion-label {
+    text-align: center;
+    margin: 0px !important;
+    padding-top: 5px;
+    p {
+      width: 100%;
+    }
+    p.vs-text {
+      font-family: "FFF-Tusj";
+      font-size: 30px;
+      margin-bottom: 5px;
+      color: $mainColor;
+    }
+    .round-indicator-div,
+    .round-indicator-div-active {
+      border-radius: 15px;
+      font-size: 12px;
+      padding: 2px;
+    }
+    .round-indicator-div {
+      border: 1px solid $mainColor;
+      color: $mainColor;
+    }
+    .round-indicator-div-active {
+      background: #2bc1fb;
+      color: #fff;
+    }
+  }
+  .name-section {
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 15px;
+    transform: matrix(1, 0, 0, 1, 0, -3);
+    font-size: 14px;
+    .me-text,
+    .other-user-text {
+      width: 25%;
+      text-align: center;
+    }
+  }
+  .border-div {
+    background: rgba(42, 83, 142, 0.1);
+    height: 1px;
+    width: 85%;
+    margin: auto;
+    margin-top: 6px;
+  }
+}
+.game-item-wrapper {
+  padding: 16px 0px 0px 0px;
+}

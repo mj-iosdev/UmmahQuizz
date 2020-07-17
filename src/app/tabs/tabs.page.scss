@@ -1,0 +1,37 @@
+ion-tab-bar {
+  --border: 0px;
+  box-shadow: 0px -2px 5px rgba(2, 54, 127, 0.15);
+  height: 56px;
+  ion-icon {
+    font-size: 26px;
+  }
+}
+
+.btn-div {
+  width: 50px;
+  position: absolute;
+  bottom: 50px;
+  margin: auto;
+}
+
+.home-btn {
+  --background: #02367f;
+  --background-activated: #02367f;
+  height: 65px;
+  width: 65px;
+  ion-icon {
+    font-size: 26px;
+  }
+}
+ion-fab.home-btn-fab {
+  border-radius: 50%;
+  padding: 7px;
+  height: 80px;
+  width: 81px;
+  border: 1px solid rgba(2, 54, 127, 0.2);
+  box-sizing: border-box;
+  background: #fff;
+  transform: matrix(1, 0, 0, 1, -15, -20);
+  position: absolute;
+  bottom: env(safe-area-inset-bottom);
+}

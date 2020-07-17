@@ -1,0 +1,132 @@
+<ion-header color="mainblue">
+  <ion-toolbar color="mainblue">
+    <ion-title>Ummah Quizz</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="item-wrapper">
+    <ion-item lines="none" class="user-main-item">
+      <ion-avatar slot="start" class="user-main">
+        <ion-img src="./assets/images/ellipse-4.png"> </ion-img>
+      </ion-avatar>
+      <ion-label class="user-name">
+        Hey Amine
+        <p>Welcome to <span>Ummah Quizz</span></p>
+      </ion-label>
+      <ion-icon
+        class="item-square-icon"
+        slot="end"
+        src="./assets/svgs/item-square-icon.svg"
+      >
+      </ion-icon>
+    </ion-item>
+    <div>
+      <ion-chip slot="start">
+        <ion-icon src="./assets/svgs/money.svg"></ion-icon>
+        <ion-label>200</ion-label>
+      </ion-chip>
+      <ion-chip slot="start">
+        <ion-icon src="./assets/svgs/gems.svg"></ion-icon>
+        <ion-label>10</ion-label>
+      </ion-chip>
+    </div>
+  </div>
+
+  <ion-grid class="grid-wrapper">
+    <ion-row>
+      <ion-col size="6">
+        <div class="first">
+          <ion-img class="ellise-image" src="./assets/svgs/ellipse.svg">
+          </ion-img>
+          <div class="icon-wrapper-div">
+            <div class="icon">
+              <ion-icon src="./assets/svgs/user-group.svg"> </ion-icon>
+            </div>
+            <div class="header-text">
+              Local
+            </div>
+            <div class="header-desc">
+              Play location with friend
+            </div>
+          </div>
+        </div>
+      </ion-col>
+      <ion-col size="6">
+        <div class="last">
+          <ion-img class="rectangle-image" src="./assets/svgs/rect.svg">
+          </ion-img>
+          <div class="icon-wrapper-div">
+            <div class="icon">
+              <ion-icon src="./assets/svgs/wifi.svg"> </ion-icon>
+            </div>
+            <div class="header-text">
+              Online
+            </div>
+            <div class="header-desc">
+              Play with online players
+            </div>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div class="header-title-text">
+    Quizz of Week
+  </div>
+  <div class="quiz-of-week-content-div">
+    <div>
+      <div class="inner-text">Think you are clever?</div>
+      <div class="prove-it-text">PROVE IT</div>
+    </div>
+    <div class="bg-image"></div>
+  </div>
+  <div class="header-title-text">
+    Current Game
+  </div>
+  <div class="current-game-section">
+    <div class="game-item-wrapper">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <ion-img src="./assets/images/user-avatar-1.png"> </ion-img>
+        </ion-avatar>
+
+        <ion-label>
+          <ion-img src="./assets/svgs/75-20-progress-bar.svg"></ion-img>
+          <p class="vs-text">VS</p>
+          <p class="round-indicator-div-active"><b>3 min</b> to Round 2</p>
+        </ion-label>
+        <ion-avatar slot="end">
+          <ion-img src="./assets/images/user-avatar-2.png"> </ion-img>
+        </ion-avatar>
+      </ion-item>
+      <div class="name-section">
+        <span class="me-text">Me</span>
+        <span class="dummy-span"></span>
+        <span class="other-user-text">Anna</span>
+      </div>
+    </div>
+    <div class="border-div"></div>
+    <div class="game-item-wrapper">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <ion-img src="./assets/images/user-avatar-3.png"> </ion-img>
+        </ion-avatar>
+
+        <ion-label>
+          <ion-img src="./assets/svgs/25-50-progress-bar.svg"></ion-img>
+          <p class="vs-text">VS</p>
+          <p class="round-indicator-div"><b>10 min</b> to Round 2</p>
+        </ion-label>
+        <ion-avatar slot="end">
+          <ion-img src="./assets/images/user-avatar-4.png"> </ion-img>
+        </ion-avatar>
+      </ion-item>
+      <div class="name-section">
+        <span class="me-text">Me</span>
+        <span class="dummy-span"></span>
+        <span class="other-user-text">Oleg</span>
+      </div>
+    </div>
+  </div>
+</ion-content>
